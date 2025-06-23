@@ -1,5 +1,3 @@
-
-
 export const dahlias = [
     {
         id: 1,
