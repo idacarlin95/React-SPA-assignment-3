@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+.header {
+    display: flex;
+    font-family: 'Fraunces', Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hotpink;
+    padding: 20px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 1.8rem;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.nav a:hover {
+    background-color: #ff8dcf;
+}
+
+.burger {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        flex-direction: column;
+        background-color: hotpink;
+        width: 100%;
+        display: none;
+    }
+
+    .nav.open {
+        display: flex;
+    }
+
+    .burger {
+        display: block;
+    }
+    
+}
+
+/*
+.header {
+    align-items: center;
+    background-color: burlywood;
+    padding: 24px;
+}
+
+.pageTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-align: center;
+}
+*/

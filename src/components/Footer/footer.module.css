@@ -1,0 +1,9 @@
+.footer {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.footer__pageTitle {
+    font-size: 1rem;
+    text-align: center;
+}
