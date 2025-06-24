@@ -5,8 +5,8 @@ const Home = () => {
     return (
         <div className={styles.home}>
           <div className={styles.videobackground}>
-            <video autoPlay loop muted>
-              <source src="../../src/assets/hcbfdd2ba_4153440.mov" type="video/mp4" />
+            <video autoPlay loop muted playsInline>
+              <source src="/hcbfdd2ba_4153440.mov" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
