@@ -5,7 +5,7 @@ const About = () => {
         <div className={styles.wrapper}>
             <div className={styles.content}>
                 <h2>About Page</h2>
-                <p>Welcome to the about page!</p>
+                <p>Here is some information about House of Flowers.</p>
             </div>
         </div>
     )
